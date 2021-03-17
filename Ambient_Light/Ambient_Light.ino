@@ -5,17 +5,6 @@ const int sensor_address	= 0x23; //address
 
 const int FREQ = 74880;
 
-/*
-void setup()
-{
-    Serial.begin(FREQ);
-	Wire.begin();
-
-}
-
-
-
-/**/
 
 BH1750 lightMeter(sensor_address);
 
@@ -34,5 +23,3 @@ void loop()
         Serial.println(lux);
     }
 }
-
-/**/
